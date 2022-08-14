@@ -4,13 +4,14 @@
 }
 
 body {
-  background-image: url(https://i.pinimg.com/564x/2d/73/ce/2d73ceeaf52796508efc2b62cea89be7.jpg);
+  background-image: url(https://i.pinimg.com/564x/b7/91/d3/b791d32d872a2d162643217483c5640c.jpg);
   background-size: cover;
-  */ */ background-attachment: fixed;
+  background-attachment: fixed;
   display: grid;
   align-items: center;
   justify-content: center;
-  height: 100vh font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -40,6 +41,52 @@ header h1 {
   font-size: 28px;
   color: rgb(175, 102, 6);
   line-height: 33px;
+}
+
+header h1 span {
+  color: #442708;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: rgb(235, 174, 82);
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 18px;
+  color: #f8efe6;
+  margin-bottom: 24px;
+}
+
+h1,
+h2,
+h3,
+.price {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+}
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details {
+  max-width: 240px;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: rgb(145, 63, 8);
+}
+
+.details p {
+  color: black;
+  font-size: 17px;
+  line-height: 21px;
 }
 
 header h1 span {
