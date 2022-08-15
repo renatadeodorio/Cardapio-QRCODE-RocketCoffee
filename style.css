@@ -4,14 +4,15 @@
 }
 
 body {
-  background-image: url(https://i.pinimg.com/564x/b7/91/d3/b791d32d872a2d162643217483c5640c.jpg);
+    background-image:url(https://i.pinimg.com/564x/b7/91/d3/b791d32d872a2d162643217483c5640c.jpg);
   background-size: cover;
+
   background-attachment: fixed;
   display: grid;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto' , sans-serif;
 }
 
 .container {
@@ -24,16 +25,18 @@ body {
 ul {
   list-style: none;
 }
+ header {
 
-header {
-  padding: 32px 0;
-  text-align: center;
-}
+   padding: 32px 0;
+   text-align: center;
+ }
+
 
 header,
 section {
   max-width: 300px;
   margin: 0 auto;
+  
 }
 
 header h1 {
@@ -57,15 +60,14 @@ section h2 {
   text-align: center;
   font-size: 18px;
   color: #f8efe6;
+
   margin-bottom: 24px;
 }
 
-h1,
-h2,
-h3,
-.price {
-  font-family: 'Roboto Serif', serif;
+h1 , h2 , h3 , .price {
+  font-family: 'Roboto Serif', serif ;
   text-transform: uppercase;
+  
 }
 
 ul li {
@@ -89,48 +91,3 @@ li .details {
   line-height: 21px;
 }
 
-header h1 span {
-  color: #442708;
-}
-
-section {
-  margin-bottom: 24px;
-}
-
-section h2 {
-  background-color: rgb(235, 174, 82);
-  padding: 8px 16px;
-  text-align: center;
-  font-size: 18px;
-  color: #60370c;
-  margin-bottom: 24px;
-}
-
-h1,
-h2,
-h3,
-.price {
-  font-family: 'Roboto Serif', serif;
-  text-transform: uppercase;
-}
-
-ul li {
-  margin-bottom: 16px;
-  display: flex;
-}
-
-li .details {
-  max-width: 240px;
-}
-
-.details h3 {
-  margin-bottom: 8px;
-  font-size: 20px;
-  color: azure;
-}
-
-.details p {
-  color: black;
-  font-size: 20px;
-  line-height: 21px;
-}
